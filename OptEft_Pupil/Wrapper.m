@@ -3,14 +3,14 @@ function [Results]=Wrapper()
 % The task is based on the Marie Curie proposal 2019.
 % The task starts with the Capacity Phase.
 % Every subject ID needs to have completed the Capacity Phase before
-% task levels can be assigned.
+% task levels can be assigned. 
 % Capacity phase ends when all last 5 questions of the same level
 % has been answered incorrectly.
 % Capacity results are interpolated by a sigmoidal function.
 % In the Performance phase, based on each participant's capacity,
 % Simple, Easy, Intermediate, Difficult tasks are assigned.
 % During the cue period, during the fixation crosses and the accuracy
-% screens, we measure pupil dilation.
+% screens, we measure pupil size.
 %
 % FirstSession variable stands for the session number to initate the task
 % from. The first session is always the capacity session, however, if
